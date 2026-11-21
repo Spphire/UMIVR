@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/QuestUMIVR_v2_fileupload.unity
+    guid: d19c973519a2a3e4ebc1a74b65ca3f60
+  - enabled: 1
+    path: Assets/Scenes/QuestUMIVR_v2.unity
+    guid: 5cc60ebefa390a94fabc8ab1cbd775bc
+  - enabled: 1
+    path: Assets/Scenes/QuestUMIVR_v3.unity
+    guid: c920237b2e7cd89419415f5d8e92a8a3
+  - enabled: 0
+    path: Assets/Scenes/QuestUMIVR.unity
+    guid: aa13b1c0434191241b629e6f8f69cfdf
+  - enabled: 0
+    path: Assets/Scenes/QuestArUco_improved.unity
+    guid: 1ae03f47d35e99e4e808a21469d071b8
+  - enabled: 0
+    path: Assets/1 - ArUcoMarkerTracking.unity
+    guid: 1ec941d0a04dc274785bd240533c82b5
+  - enabled: 0
+    path: Assets/Scenes/QuestArUco.unity
+    guid: e477725f7a9fb5148802e0111f904411
+  - enabled: 0
+    path: Assets/QuestWithOpenCVForUnityExample/ShowLicense.unity
+    guid: f474a249ee4adba4c9970402cbeb181e
+  - enabled: 0
+    path: Assets/QuestWithOpenCVForUnityExample/QuestArUcoExample/QuestArUcoExample.unity
+    guid: 0ee522dce86dee04e879a2cec969f464
+  - enabled: 0
+    path: "Assets/Samples/Meta XR Interaction \u200BSDK/81.0.0/Example Scenes/RayExamples.unity"
+    guid: 1b2d3f90c0f50b94cb910c66c773d00d
+  - enabled: 0
+    path: Assets/Scenes/Quest.unity
+    guid: 2245cd63456513b449fb73bb2bd83998
+  - enabled: 0
+    path: "Assets/Samples/Meta XR Interaction \u200BSDK/81.0.0/Feature Scenes/DebugRay.unity"
+    guid: 98733b7ba27575749b1cb1365c853e1f
+  - enabled: 0
+    path: Assets/QuestWithOpenCVForUnityExample/QuestWithOpenCVForUnityExample.unity
+    guid: 40fe5365ca0f6aa43b9b720791ce243a
+  - enabled: 0
+    path: Assets/QuestWithOpenCVForUnityExample/QuestFaceIdentificationEstimatorExample/QuestFaceIdentificationEstimatorExample.unity
+    guid: e0a893d5a1d28cb4e8d24773ffaadb01
+  - enabled: 0
+    path: Assets/QuestWithOpenCVForUnityExample/QuestMultiObjectTrackingExample/QuestMultiObjectTrackingExample.unity
+    guid: 490f1d7253ee1f645aa8de6ca0c2e5b5
+  - enabled: 0
+    path: Assets/QuestWithOpenCVForUnityExample/QuestPassthrough2MatHelperExample/QuestPassthrough2MatHelperExample.unity
+    guid: 9609d9da8b1d7cd4295bb05049f7e46a
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 72ba3d9c1c3b7c0438aa32ce76baae04, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: efb9b5977e82f2440b7fcfe3095ce3c2, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: cb21b4af76cc5234c9917a23a2a12f30, type: 2}
+  m_UseUCBPForAssetBundles: 0

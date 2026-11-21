@@ -1,0 +1,51 @@
+# Unity generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/.utmp/
+/.plastic/
+/.idea/
+/.vs/
+/.vscode/
+*.csproj
+*.sln
+*.sln.*
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.log
+/ignore.conf
+# Local credentials and signing
+*.keystore
+*.jks
+.env
+.env.*
+# Profiling, recovery and captured data
+/perf_abtest/
+/perf_abtest_depth/
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+*.apk
+*.aab
+# Quest/Android project: keep Android and Windows editor native libraries.
+/Assets/OpenCVForUnity/Plugins/iOS/
+/Assets/OpenCVForUnity/Plugins/iOS.meta
+/Assets/OpenCVForUnity/Plugins/Linux/
+/Assets/OpenCVForUnity/Plugins/Linux.meta
+/Assets/OpenCVForUnity/Plugins/macOS/
+/Assets/OpenCVForUnity/Plugins/macOS.meta
+/Assets/OpenCVForUnity/Plugins/VisionOS/
+/Assets/OpenCVForUnity/Plugins/VisionOS.meta
+/Assets/OpenCVForUnity/Plugins/WebGL/
+/Assets/OpenCVForUnity/Plugins/WebGL.meta
+/Assets/OpenCVForUnity/Plugins/WSA/
+/Assets/OpenCVForUnity/Plugins/WSA.meta

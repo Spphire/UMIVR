@@ -1,0 +1,48 @@
+#pragma kernel KMain
+
+Texture2D<float4> _InputTex;
+RWTexture2D<float> _OutputTex;
+
+int _InputWidth;
+int _InputHeight;
+int _OutputWidth;
+int _OutputHeight;
+int _Factor;
+
+[numthreads(8, 8, 1)]
+void KMain(uint3 id : SV_DispatchThreadID)
+{
+    uint ox = id.x;
+    uint oy = id.y;
+    if (ox >= (uint)_OutputWidth || oy >= (uint)_OutputHeight)
+        return;
+
+    int factor = max(1, _Factor);
+    int baseX = (int)ox * factor;
+    int baseY = (int)oy * factor;
+
+    float sum = 0.0;
+    int count = 0;
+
+    [loop]
+    for (int y = 0; y < factor; y++)
+    {
+        int sy = min(baseY + y, _InputHeight - 1);
+
+        [loop]
+        for (int x = 0; x < factor; x++)
+        {
+            int sx = min(baseX + x, _InputWidth - 1);
+            float d = _InputTex[int2(sx, sy)].x;
+
+            if (d > 0.00001 && d < 10000.0)
+            {
+                sum += d;
+                count++;
+            }
+        }
+    }
+
+    float outDepth = (count > 0) ? (sum / count) : 0.0;
+    _OutputTex[int2(ox, oy)] = outDepth;
+}
